@@ -1,7 +1,7 @@
 // Query Selector
 
 function reset(){
-  let counter = 0;
+  counter = 0;
   document.querySelector('h1').innerHTML = counter;
 }
 
