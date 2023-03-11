@@ -2,7 +2,9 @@
 
 function reset(){
   counter = 0;
-  document.querySelector('h1').innerHTML = counter;
+  
+  document.querySelector('#reset').innerHTML = counter;
+    decodeURIComponent.querySelector('button').onclick('#reset')
 }
 
 function hello() {
@@ -17,7 +19,9 @@ function count() {
     alert(`Count is now ${counter}`);
   }
 }
-
+document.addEventListener('DOMContentLoaded',function(){
+  document.querySelector('button').onclick = count;
+});
 
 // Slideshow
 var slideIndex = 1;
